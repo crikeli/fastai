@@ -24,6 +24,7 @@ dependencies:
   #- glib
 - html5lib
 - icu
+- gdal
 - ipykernel
 - ipython
 - ipython_genutils
@@ -36,6 +37,11 @@ dependencies:
 - jupyter_client
 - jupyter_console
 - jupyter_core
+- fiona
+- shapely
+- pyproj
+- rtree
+- geopandas
   #- libffi
   #- libgcc
   #- libgfortran
@@ -99,6 +105,7 @@ dependencies:
 - prompt_toolkit
 - pytest
 - pip:
+  - rasterio
   - torchvision>=0.1.9
   - opencv-python
   - isoweek
